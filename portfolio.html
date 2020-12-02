@@ -11,40 +11,79 @@
 		body{
 			background-color: #000;
 		}
-		.titleBox h2{
+		#titleBox h2{
 			color:#ff7155;
 			text-align: center;
 			font-family: 'NanumSquare';
 			padding-top:20px;
 		}
 		.contentBox1{
-			background-color: #141414;
+			background-color: #000;
 			width:100%;
-			height:800px;
+			height:600px;
 			
 			padding-top:400px;
 		}
 
-		.contentBox1:hover {
-			opacity: .5;}
+		a{ text-decoration: none; }
 
 		.contentBox1 p{
 			color:#fff;
 			text-align: center;
 			
-			font-size: 3em;
+			font-size: 2.5em;
 			font-family: 'NanumSquare';
 
 		}
+
+		.icn{
+			margin-top: 50px;
+			width:100px;
+			height:100px;
+			background-color: #ffaa97;
+			bottom:50px;
+			right:50px;
+			position: fixed;
+			border-radius: 50%;
+			box-shadow: 3px 3px 3px rgba(0,0,0, .5);
+		}
+
+		.icn p{
+			color:#fff;
+			text-align: center;
+			font-family: 'NanumSquare';
+			font-weight: bold;
+			padding-top: 15px;
+			font-size:1.5em;
+		}
+
+		.contentBox2{
+			width:100%;
+			height:400px;
+			background-color: #dcdcdc;
+		}
+
+	
 	</style>
+
 </head>
 <body>
-<div class="titleBox">
+<div class="icn"><a href="#titleBox">
+	<p>TOP</p></a>
+</div>
+
+<div id="titleBox">
 	<h2>HELLO MY WORLD</h2>
 </div>
+
 <div class="contentBox1">
 	<p>Lim Yeon Joo의 place에 온 것을 진심으로 환영합니다!!</p>
+</div>
+
+<div class="contentBox2">
+
 
 </div>
+
 </body>
 </html>

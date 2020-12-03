@@ -4,3 +4,107 @@
 .nanumsquare {
     font-family: 'NanumSquare', sans-serif !important;
 }
+
+
+body{
+	background-color: #000;
+	font-family: 'NanumSquare';
+}
+
+#titleBox h2{
+color:#7651ff;
+text-align: center;
+padding-top:20px;
+padding-bottom: 10px;
+font-size: 2em;
+}
+		
+
+.contentBox1{
+background-color: #977bff;
+width:100%;
+height:500px;
+padding-top:300px;
+}
+
+a{ text-decoration: none; }
+
+.contentBox1 p{
+color:#fff;
+text-align: center;
+font-size: 2.5em;
+}
+
+.icn{
+margin-top: 50px;
+width:100px;
+height:100px;
+background-color: #4020b9;
+bottom:50px;
+right:50px;
+position: fixed;
+border-radius: 50%;
+box-shadow: 3px 3px 3px rgba(0,0,0, .5);
+}
+
+.icn p{
+color:#fff;
+text-align: center;
+font-weight: bold;
+padding-top: 15px;
+font-size:1.5em;
+}
+
+.icn2{
+margin-top: 50px;
+width:80px;
+height:80px;
+background-color: #fff;
+bottom:180px;
+right:60px;
+position: fixed;
+border-radius: 50%;
+box-shadow: 3px 3px 3px rgba(0,0,0, .5);
+}
+
+.icn2 p{
+color:#000;
+text-align: center;
+font-weight: bold;
+padding-top: 15px;
+font-size:1em;
+}
+
+#profile{
+width:100%;
+height:1000px;
+}
+
+#profile img{
+width:20%;
+bottom:200px;
+left: 500px;
+margin: 0 auto;
+display: block;
+padding-top: 100px;
+}
+
+#profile img:hover{
+opacity: .5;
+}
+
+#profile h2{
+text-align: center;
+color:#fff;
+padding-top: 150px;
+font-size: 2.5em;
+font-weight: bold;
+}
+
+#profile h3{
+text-align: center;
+color:#fff;
+font-size: 1.3em;
+padding-top: 20px;
+}
+	
